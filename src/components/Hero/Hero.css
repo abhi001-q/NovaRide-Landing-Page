@@ -1,0 +1,84 @@
+.hero {
+  position: absolute; /* overlay enable */
+  top: 0;
+  left: 0;
+  right: 0; /* ensure full width */
+  width: 100%;
+  z-index: 3;
+  padding: 270px 120px 0 120px; /* replaces margin for better control */
+  box-sizing: border-box; /* ensure padding doesn't break width */
+  height: 500px;
+}
+
+.hero-text {
+  color: #fff;
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 90px;
+  margin-top: 50px;
+}
+
+.hero-explore {
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  background-color: #fff;
+  cursor: pointer;
+  width: fit-content; /* adjust width based on content */
+  height: fit-content;
+  margin-top: 30px;
+}
+.hero-explore p {
+  color: #292929;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px;
+}
+
+.hero-dot-play {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 15px;
+}
+
+.hero-dot {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.hero-dot li {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.hero-dot li.orange {
+  background: #ff6b00;
+}
+
+.hero-play {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.hero-play img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.hero-play p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding-right: 15px;
+}
