@@ -35,7 +35,7 @@ cd ev-website
 2. Install dependencies:
 
 ```bash
-npm install or 
+npm install
 ```
 
 ### Development
